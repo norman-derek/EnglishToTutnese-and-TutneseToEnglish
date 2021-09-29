@@ -33,12 +33,18 @@ int main(int argc, char** argv){ // main method
         cout << "please input a .txt file for the input" << endl;
 
         return -1;
+    }else if (output.length() < 4){
+        cout << "please input a .txt file for the output" << endl;
     }
+
     if(output.substr(output.length() - 4) != ".txt") {
         cout << "please input a .txt file for the output" << endl;
 
         return -1;
+    } else if (output.length() < 4){
+        cout << "please input a .txt file for the output" << endl;
     }
+    
     if (translationPath == ""){ //defaults to english to tutnese if no translation path is given
         fp->processFile(input, output); // calls processFile method with command line arguments as arguments for method, if no third argument is provided translates from english to tutnese
 

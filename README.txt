@@ -13,7 +13,7 @@
     main.cpp
     Makefile
 
-3)  There are two if statement to check if the input or output file has a .txt extension but if the name of the file is less than 4 in length it returns a out of range error
+3) N/A
 
 4)  https://www.cplusplus.com/reference/cctype/ispunct/
 
